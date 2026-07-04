@@ -59,3 +59,6 @@
      - name: display success msg
        debug:
          msg: "{{ m }}"
+         -name: display success msg
+         debug:
+           msg: "Worker node has successfully joined the swarm."    
